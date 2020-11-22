@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name" translatable="false">Covid-19Test</string>
+    <string name="nom" translatable="false">Nom</string>
+    <string name="prenom" translatable="false">Prenom</string>
+    <string name="prompt_email" translatable="false">Identifiant</string>
+    <string name="prompt_password" translatable="false">Mot de passe</string>
+    <string name="action_sign_in" translatable="false">Se Connecter</string>
+    <string name="action_sign_in_short" translatable="false">Sign in</string>
+    <string name="welcome" translatable="false">"Covid-19Test"</string>
+    <string name="invalid_username" translatable="false">Identifiant Non Valide</string>
+    <string name="invalid_password" translatable="false">Password must be >5 characters</string>
+    <string name="login_failed" translatable="false">"Login failed"</string>
+    <string name="title_activity_ministeresante" translatable="false">MainActivity</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="ajouter_persoone">Ajouter Personne</string>
+
+    <string name="periode">Periode de connfinement (par jours)</string>
+
+</resources>
