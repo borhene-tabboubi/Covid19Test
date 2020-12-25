@@ -17,4 +17,6 @@
 
     <string name="periode">Periode de connfinement (par jours)</string>
 
+    <string name="title_activity_login">Covid-19 Test</string>
+
 </resources>

@@ -14,7 +14,8 @@
         android:textColor="@color/white"
         android:textSize="20dp"
         tools:layout_editor_absoluteX="219dp"
-        tools:layout_editor_absoluteY="247dp" />
+        tools:layout_editor_absoluteY="247dp"
+        tools:ignore="MissingConstraints"/>
 
     <TextView
         android:id="@+id/textView2"
@@ -24,7 +25,8 @@
         android:textColor="@color/white"
         android:textSize="30dp"
         tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="32dp" />
+        tools:layout_editor_absoluteY="32dp"
+        tools:ignore="MissingConstraints"/>
 
     <TextView
         android:id="@+id/textView3"
@@ -35,7 +37,8 @@
         android:textColor="@color/design_default_color_error"
         android:textSize="25dp"
         tools:layout_editor_absoluteX="156dp"
-        tools:layout_editor_absoluteY="124dp" />
+        tools:layout_editor_absoluteY="124dp"
+        tools:ignore="MissingConstraints"/>
 
     <TextView
         android:id="@+id/textView5"
@@ -45,7 +48,8 @@
         android:textColor="@color/white"
         android:textSize="20dp"
         tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="247dp" />
+        tools:layout_editor_absoluteY="247dp"
+        tools:ignore="MissingConstraints"/>
 
     <TextView
         android:id="@+id/textView12"
@@ -55,7 +59,8 @@
         android:textColor="@color/white"
         android:textSize="20dp"
         tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="384dp" />
+        tools:layout_editor_absoluteY="384dp"
+        tools:ignore="MissingConstraints"/>
 
     <Button
         android:id="@+id/button2"
@@ -63,5 +68,6 @@
         android:layout_height="wrap_content"
         android:text="Rechercher"
         tools:layout_editor_absoluteX="139dp"
-        tools:layout_editor_absoluteY="522dp" />
+        tools:layout_editor_absoluteY="522dp"
+        tools:ignore="MissingConstraints"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

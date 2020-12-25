@@ -15,7 +15,8 @@
         android:textColor="@color/white"
         android:textSize="30dp"
         tools:layout_editor_absoluteX="113dp"
-        tools:layout_editor_absoluteY="32dp" />
+        tools:layout_editor_absoluteY="32dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/ncin"
@@ -25,7 +26,8 @@
         android:selectAllOnFocus="true"
         android:textColorHint="@color/white"
         tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="349dp" />
+        tools:layout_editor_absoluteY="349dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button"
@@ -33,15 +35,17 @@
         android:layout_height="wrap_content"
         android:text="Rechercher"
         tools:layout_editor_absoluteX="139dp"
-        tools:layout_editor_absoluteY="467dp" />
+        tools:layout_editor_absoluteY="467dp"
+        tools:ignore="MissingConstraints"/>
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="184dp"
         android:layout_height="201dp"
-        app:srcCompat="@drawable/LogoApplication"
+        app:srcCompat="@drawable/darkbackground"
         tools:layout_editor_absoluteX="113dp"
-        tools:layout_editor_absoluteY="123dp" />
+        tools:layout_editor_absoluteY="123dp"
+        tools:ignore="MissingConstraints"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -8,18 +8,18 @@
     <fragment
         android:id="@+id/nav_home"
         android:name="com.dsi32g6.Covid19Test.ui.home.HomeFragment"
-        android:label="@string/menu_home"
+        android:label="@string/periode"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_gallery"
         android:name="com.dsi32g6.Covid19Test.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
+        android:label="@string/periode"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
         android:name="com.dsi32g6.Covid19Test.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
+        android:label="@string/periode"
         tools:layout="@layout/fragment_slideshow" />
 </navigation>
