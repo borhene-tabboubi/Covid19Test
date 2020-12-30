@@ -20,8 +20,8 @@
     <string name="title_activity_login">Covid-19 Test</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="country__prompt">Choose a country</string>
-    <string name="positive_retablie">Test Positive (retablie)</string>
-    <string name="positive_en_cours">Test Positive (en cours)</string>
+    <string name="positive_retablie">Test Positif (rétablis du virus)</string>
+    <string name="positive_en_cours">Test Positif (porteurs du virus)</string>
     <string-array name="country__arrays">
         <item>positive</item>
         <item>negative</item>
