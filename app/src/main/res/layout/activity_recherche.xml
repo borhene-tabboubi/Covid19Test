@@ -78,11 +78,11 @@
             android:layout_weight="1" />
 
         <Button
+            android:id="@+id/trouverp"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1.2"
-            android:text="Rechercher"
-            android:onClick="Recherche"/>
+            android:text="Rechercher" />
 
         <TextView
             android:layout_width="0dp"
