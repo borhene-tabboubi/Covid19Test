@@ -62,7 +62,10 @@ public class ListePatient extends AppCompatActivity {
 
         }
     }
-
+    public void ajout(View view) {
+        Intent intent = new Intent(this, LabAjout.class);
+        startActivity(intent);
+    }
 
     public void to1(View view) {
         Intent intent = new Intent(this, Items.class);
