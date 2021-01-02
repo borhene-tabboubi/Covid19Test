@@ -4,6 +4,8 @@
     package="com.Dsi32g6.Covid19Application">
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         tools:ignore="ScopedStorage" />
+
+
     <application
         android:allowBackup="true"
         android:hardwareAccelerated="false"
@@ -12,8 +14,7 @@
         android:largeHeap="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-        android:fullBackupContent="">
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity android:name="com.Dsi32g6.Covid19Application.ListePatient"/>
         <activity android:name="com.Dsi32g6.Covid19Application.Items"/>
         <activity android:name="com.Dsi32g6.Covid19Application.LabAjout" />
