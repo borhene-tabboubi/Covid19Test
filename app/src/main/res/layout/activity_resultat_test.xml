@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/darkbackground">
+
+
+    <TextView
+        android:id="@+id/prenom"
+        android:layout_width="113dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="40dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/periodcf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.849"
+        app:layout_constraintStart_toEndOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/nom"
+        app:layout_constraintVertical_bias="0.611"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="113dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="228dp"
+        android:layout_marginEnd="68dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.843"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="113dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="76dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/nom"
+        android:layout_width="113dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="68dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.849"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="115dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="228dp"
+        android:text="@string/test_covid19"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="113dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/n_carte_d_identit"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="113dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/nom"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+
+        android:id="@+id/textView7"
+        android:layout_width="113dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="40dp"
+        android:text="@string/prenom"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/periodcf"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.588"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/periodcf"
+        android:layout_width="324dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="24dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="@string/rechercher"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="152dp"
+        android:layout_height="137dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/periodcf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.043"
+        app:srcCompat="@drawable/applicationlogo"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="TODO" />
+</androidx.constraintlayout.widget.ConstraintLayout>
