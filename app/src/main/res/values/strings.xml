@@ -25,6 +25,8 @@
     <string name="test_covid19">Test Covid19</string>
     <string name="n_carte_d_identit">N° carte d\'identité</string>
     <string name="rechercher">Rechercher</string>
+    <string name="listes_des_patients">Listes des Patients</string>
+    <string name="ajouter_patient">Ajouter Patient</string>
     <string-array name="country__arrays">
         <item>positive</item>
         <item>negative</item>
