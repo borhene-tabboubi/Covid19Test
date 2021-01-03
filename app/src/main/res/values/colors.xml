@@ -7,8 +7,12 @@
     <color name="black">#FF000000</color>
     <color name="vert">#7cff88</color>
     <color name="colorPrimaryLight">#DF3326</color>
-    <color name="red">#EE473B</color>
+    <color name="red">#FF0000</color>
     <color name="vertfonce">#2CA331</color>
+    <color name="vertEclair">#64FE2E</color>
     <color name="gris">#1B0A31</color>
+
+
+
 
 </resources>

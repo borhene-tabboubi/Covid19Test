@@ -19,7 +19,7 @@
         <activity android:name="com.Dsi32g6.Covid19Application.Items"/>
         <activity android:name="com.Dsi32g6.Covid19Application.LabAjout" />
         <activity android:name="com.Dsi32g6.Covid19Application.ResultatTest" />
-
+        <activity android:name="com.Dsi32g6.Covid19Application.HorsListe" />
         <activity android:name="com.Dsi32g6.Covid19Application.Recherche" />
         <activity android:name="com.Dsi32g6.Covid19Application.MainActivity">
 

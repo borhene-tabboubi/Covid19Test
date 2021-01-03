@@ -4,6 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    tools:context=".ResultatTest"
     android:layout_height="match_parent"
     android:background="@drawable/darkbackground">
 
@@ -25,7 +26,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/test"
         android:layout_width="113dp"
         android:layout_height="49dp"
         android:layout_marginTop="228dp"
@@ -39,7 +40,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/ncin"
         android:layout_width="113dp"
         android:layout_height="49dp"
         android:layout_marginTop="32dp"
@@ -48,8 +49,8 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/textView5"
-        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintStart_toEndOf="@+id/cin"
+        app:layout_constraintTop_toBottomOf="@+id/test"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -63,7 +64,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.849"
         app:layout_constraintStart_toEndOf="@+id/textView6"
-        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/ncin"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -80,10 +81,10 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/cin"
         android:layout_width="113dp"
         android:layout_height="49dp"
-        android:layout_marginStart="60dp"
+        android:layout_marginStart="64dp"
         android:layout_marginTop="28dp"
         android:text="@string/n_carte_d_identit"
         android:textColor="@color/white"
@@ -102,7 +103,7 @@
         android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/cin"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -125,9 +126,9 @@
         android:id="@+id/periodcf"
         android:layout_width="324dp"
         android:layout_height="53dp"
-        android:layout_marginBottom="24dp"
-        android:textColor="@color/white"
+        android:layout_marginBottom="40dp"
         android:textAlignment="center"
+        android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -145,6 +146,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/bouttonajout"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -160,5 +162,6 @@
         app:layout_constraintVertical_bias="0.043"
         app:srcCompat="@drawable/applicationlogo"
         tools:ignore="MissingConstraints"
-        android:contentDescription="TODO" />
+        android:onClick="retour"
+        android:contentDescription="@string/app_name" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -20,6 +20,7 @@
             android:orientation="horizontal">
 
             <ImageView
+                android:contentDescription="@string/app_name"
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:layout_margin="5dp"
@@ -37,16 +38,17 @@
                 android:orientation="vertical"
                 android:layout_weight="2">
 
-                <Button
+                <TextView
                     android:id="@+id/add"
                     android:layout_width="wrap_content"
-                    android:layout_height="1dp"
+                    android:layout_height="0dp"
                     android:textStyle="bold"
-                    android:textSize="20dp"
+                    android:textSize="25sp"
+                    android:layout_marginTop="20dp"
                     android:textColorHint="@color/white"
                     android:textColor="@color/gris"
                     android:layout_weight="1"
-                    android:textAlignment="gravity"
+                    android:textAlignment="center"
 
                     android:text="@string/listes_des_patients" />
 
@@ -56,7 +58,9 @@
                     android:onClick="ajout"
                     android:text="@string/ajouter_patient"
                     android:textAlignment="center"
-                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/bouttonajout"
+                    android:textSize="18sp"
                     android:textStyle="italic" />
                 <TextView
                     android:layout_width="match_parent"
@@ -77,7 +81,7 @@
                 android:orientation="vertical">
 
                 <ImageView
-
+                    android:contentDescription="@string/app_name"
                     android:layout_width="130dp"
                     android:layout_height="0dp"
                     android:layout_marginLeft="5dp"
@@ -107,7 +111,7 @@
             <Button
                 android:onClick="to1"
                 android:text="@string/positive_en_cours"
-                android:background="@color/red"
+                android:background="@drawable/bouttonred"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1" />
@@ -116,15 +120,15 @@
                 android:onClick="to2"
                 android:text="@string/positive_retablie"
                 android:layout_width="0dp"
-                android:background="@drawable/buttonbackground"
+                android:background="@drawable/bouttongris"
                 android:layout_height="match_parent"
                 android:layout_weight="1" />
 
             <Button
                 android:onClick="to3"
-                android:text="Test Negative"
+                android:text="@string/test_negative"
                 android:layout_width="0dp"
-                android:background="@color/vertfonce"
+                android:background="@drawable/buttonfile"
                 android:layout_height="match_parent"
                 android:layout_weight="1" />
 

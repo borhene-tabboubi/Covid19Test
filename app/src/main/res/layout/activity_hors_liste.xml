@@ -4,17 +4,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Recherche"
+    tools:context=".HorsListe"
     android:background="@drawable/darkbackground">
 
     <ImageView
+        android:contentDescription="@string/app_name"
         android:layout_width="match_parent"
         android:layout_height="204dp"
         android:layout_marginTop="70dp"
         android:layout_marginBottom="30dp"
         android:paddingTop="0dp"
-        android:src="@drawable/applicationlogo"
-        android:contentDescription="@string/app_name">
+        android:src="@drawable/applicationlogo">
 
     </ImageView>
 
@@ -30,14 +30,15 @@
             android:layout_height="wrap_content"
             android:layout_weight="1" />
 
-        <EditText
-            android:id="@+id/cin"
+        <TextView
+            android:id="@+id/resultat"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:background="@color/white"
             android:layout_weight="4"
-            android:hint="@string/n_carte_d_identit"
-            android:autofillHints="..."/>
+            android:text="@string/Horsliste"
+            android:textStyle="bold"
+                                       />
 
         <TextView
             android:layout_width="0dp"
@@ -82,9 +83,9 @@
             android:id="@+id/trouverp"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:onClick="retour"
             android:layout_weight="1.2"
             android:background="@drawable/bouttonajout"
-            android:textColor="@color/black"
             android:text="@string/rechercher" />
 
         <TextView
