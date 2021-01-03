@@ -30,7 +30,7 @@ public class Queries {
       public static final String INSERT =
                     "INSERT INTO USER ('USERNAME','password','role') values ('police','police','p');";
     public static final String INSERT1 =
-            "INSERT INTO USER ('USERNAME','password','role') values ('labo','labo','l');";
+            "INSERT INTO USER ('USERNAME','password','role') values ('laboratoire','laboratoire','l');";
   //  public static final String INSERTPatient =
    //         "INSERT INTO PATIENT  values ('09620316','Tabboubi','Borhene',15,'positive','2015-01-01');";
     public static final String dropTable =
@@ -88,7 +88,7 @@ public class Queries {
 
     private static void fillMap() {
 
-        FileReader fileReader = null;
+        FileReader fileReader;
 
         JSONParser jsonParser = new JSONParser();
         try {
@@ -105,12 +105,14 @@ public class Queries {
             }
 
         } catch (FileNotFoundException e) {
+            System.err.println("erreur");
 
         }catch (ParseException e){
+            System.err.println("erreur");
 
         }
         catch (IOException e) {
-
+System.err.println("erreur");
         }
     }
 
