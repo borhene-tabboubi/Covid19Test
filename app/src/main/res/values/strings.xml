@@ -29,6 +29,15 @@
     <string name="Horsliste">Ce personne n\'a jamais effectué un test Covid19</string>
     <string name="rechercher">Rechercher</string>
     <string name="test_negative">Test Negative</string>
+    <string name="pseudo">Pseudo</string>
+    <string name="password">password</string>
+    <string name="login">Login</string>
+    <string name="r_sultat_test">Résultat Test</string>
+    <string name="liste_des_patients">liste des Patients</string>
+    <string name="exp_14_pour_2_semaines">exp: 14 pour 2 semaines</string>
+    <string name="zero">0</string>
+    <string name="ncinexample">096*****</string>
+    <string name="ajouter">Ajouter</string>
     <string-array name="country__arrays">
         <item>positive</item>
         <item>negative</item>
