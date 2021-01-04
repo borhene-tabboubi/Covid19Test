@@ -13,8 +13,8 @@ import java.util.List;
 
 public class ItemAdapter extends BaseAdapter {
 
-    private Context context;
-    private List<AppItem> items;
+    private final Context context;
+    private final List<AppItem> items;
 
     public ItemAdapter(Context context, List<AppItem> items) {
         this.context = context;

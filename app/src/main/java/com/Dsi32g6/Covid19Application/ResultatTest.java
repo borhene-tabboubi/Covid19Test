@@ -66,11 +66,11 @@ public class ResultatTest extends AppCompatActivity {
                 System.err.println(date1);
 
 
-                if (dataBaseHelper.diffDate(convertDateWithFormat(n.getDateString()), date1) >= n.getPeriode()) {
-                    Long j = dataBaseHelper.diffDate(convertDateWithFormat(n.getDateString()), date1) - n.getPeriode();
+                if (DataBaseHelper.diffDate(convertDateWithFormat(n.getDateString()), date1) >= n.getPeriode()) {
+                    Long j = DataBaseHelper.diffDate(convertDateWithFormat(n.getDateString()), date1) - n.getPeriode();
                     periodcf.setText("" + n.getPrenom() + " " + n.getNom() + " est Hors Confinement depuis " + j+2+ " Jours");
                 } else {
-                    Long j = n.getPeriode() - dataBaseHelper.diffDate(convertDateWithFormat(n.getDateString()), date1);
+                    Long j = n.getPeriode() - DataBaseHelper.diffDate(convertDateWithFormat(n.getDateString()), date1);
                     periodcf.setText("" + n.getPrenom() + " " + n.getNom() + " est Confiné : Il reste  " + j + " Jours de confinement");
 
                 }
@@ -82,7 +82,7 @@ public class ResultatTest extends AppCompatActivity {
                     nom.setText(n.getNom());
                     cin.setText(n.getCin());
                     test.setText("Negative");
-                    periodcf.setText("" + n.getPrenom() + " " + n.getNom() + " a testé le "+n.getDateString()+" avec la resultat Negative");
+                    periodcf.setText("" + n.getPrenom() + " " + n.getNom() + getString(R.string.a_testé_le)+n.getDateString()+getString(R.string.negativeResult));
                 } else if (n.getTest().equals("positive")) {
                     test.setTextColor(Color.RED);
                     prenom.setText(n.getPrenom());

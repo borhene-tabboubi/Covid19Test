@@ -15,7 +15,7 @@ public class DbManager {
 
     private DataBaseHelper dataBaseHelper;
 
-    private Context context;
+    private final Context context;
 
     private SQLiteDatabase database;
 
